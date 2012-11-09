@@ -1,0 +1,99 @@
+body{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	color:#000;
+	font-size:14px;
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+input, textarea{
+	border:1px solid black;
+	cursor:pointer;
+}
+
+a:link,
+a:visited,
+a{
+	color:#000;
+}
+
+a:hover{
+	color:#555;
+}
+
+.blockLink{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+h1{
+	font-size:22px;
+	line-height:28px; 
+}
+
+h2{
+	font-size:18px;
+	line-height:22px;
+}
+
+.f10{
+	font-size:10px;
+	line-height:12px;
+}
+
+
+.clear{
+	clear:both;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+
+
+.body_wrapper{
+	float:left;
+	width:760px;
+	height:600px;
+	overflow:auto;
+}
+
+.content{
+	float:left;
+	width:750px;
+	height:600px;
+	background:#ccc;
+	border:1px solid green;
+}
+
+.debug{
+	width:740px;
+	float:left;
+	word-wrap:break-word;
+	border:1px solid blue;
+	margin-left:800px;
+}
+
+.myCanvas{
+	margin-top:10px;
+}
